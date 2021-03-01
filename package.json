@@ -1,0 +1,17 @@
+{
+  "name": "robinhood",
+  "version": "1.0.0",
+  "description": "Unofficial Robinhood API client library for Node.js",
+  "homepage": "https://github.com/jaredrcleghorn/robinhood.js#readme",
+  "bugs": {
+    "url": "https://github.com/jaredrcleghorn/robinhood.js/issues"
+  },
+  "author": "Jared Cleghorn <jaredrcleghorn@gmail.com> (https://jaredcleghorn.com/)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaredrcleghorn/robinhood.js.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
