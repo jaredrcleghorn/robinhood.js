@@ -1,5 +1,7 @@
 # robinhood.js
 
+![test](https://github.com/jaredrcleghorn/robinhood.js/actions/workflows/test.yml/badge.svg)
+
 Unofficial Robinhood API client library for Node.js
 
 ## Contributing
