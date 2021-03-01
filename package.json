@@ -15,12 +15,18 @@
   "scripts": {
     "build": "npm run clean && babel src -d lib",
     "clean": "rimraf lib",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run build && mocha --require @babel/register"
   },
   "devDependencies": {
     "@babel/cli": "^7.13.0",
     "@babel/core": "^7.13.8",
     "@babel/preset-env": "^7.13.8",
+    "@babel/register": "^7.13.8",
+    "chai": "^4.3.0",
+    "mocha": "^8.3.0",
     "rimraf": "^3.0.2"
+  },
+  "dependencies": {
+    "uuid": "^8.3.2"
   }
 }
